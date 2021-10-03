@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto";
+  background: #fff;
+  color: #505F98;
+}
+
+@media screen and (max-width: 970px) {
+  body {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #505f98;
+}
+
+button {
+  border: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    padding: 0 1rem;
+    min-height: 0;
+  }
+}
+
+.default_button {
+  font-weight: 500;
+  background: #111B47;
+  border-radius: 2px;
+  color: #fff;
+  height: 1.625rem;
+  width: 6.5rem;
+}
+
+li {
+  display: block;
+} 
+
+
+.title {
+  font-weight: 500;
+  font-size: 2.25rem;
+  color: #091133;;
+  line-height: 3rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #6f7cb2;
+}
+
+.img_container {
+  max-width: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+  animation-duration: 5s;
+  animation-name: slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bottom {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
