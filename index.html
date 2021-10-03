@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming first lab</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="header">
+                <div class="header_menu" onclick="toggleMenu()">
+                    <img src="images/menu_icon.svg" alt="Menu icon">
+                </div>
+                <div class="header_title">Landie</div>
+                <div class="header_options">
+                    <nav id="nav-links" class="header_nav">
+                        <ul>
+                            <li class="header_navitem">
+                                <a class="heaader__nav-link" href="">Home</a>
+                            </li>
+                            <li class="header_navitem">
+                                <a class="heaader__nav-link" href="">About</a>
+                            </li>
+                            <li class="header_navitem">
+                                <a class="heaader__nav-link" href="">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header_but">
+                        <button class="default_button">Learn more</button>
+                        <button class="default_button header_buy_now">Buy Now</button>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="hero_parent_ill">
+                    <div class="hero_hiding_parent_ill">
+                        <div class="hero_ill">
+                            <img src="images/first_img.svg" alt="Hero image" />
+                        </div>
+                    </div>
+                </div>
+                <div class="hero_inn">
+                    <h1 class="title">Introduce Your Product Quickly & Effectively</h1>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus
+                    </p>
+                    <p class="paragraph">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                        sem.
+                        Nulla consequat massa quis enim.</p>
+                    <div class="bottom">
+                        <div class="small_cont">
+                            <img class="mini-icon" src="images/icon.svg" alt="Icon">
+                            <div class="small_title">Title Goes Here</div>
+                            <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor.</div>
+                        </div>
+                        <div class="small_cont">
+                            <img src="images/icon.svg" alt="Icon">
+                            <div class="small_title">Title Goes Here</div>
+                            <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="title">Light, Fast & Powerful</h1>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                    eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+                <p class="paragraph">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                    consequat massa quis
+                    enim.</p>
+                <div class="bottom">
+                    <div class="small_cont">
+                        <img class="mini-icon" src="images/icon.svg" alt="Icon">
+                        <div class="small_title">Title Goes Here</div>
+                        <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <div class="small_cont">
+                        <img src="images/icon.svg" alt="Icon">
+                        <div class="small_title">Title Goes Here</div>
+                        <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor.</div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/second_img.svg" alt="Some intro image" class="intro_img">
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="container pricing_cont">
+            <div class="inner_price">
+                <h1 class="title">A Price To Suit Everyone</h1>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                    eget
+                    dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+            </div>
+            <div class="bottom">
+                <div class="small_cont">
+                    <div class="title pricing-title">FREE</div>
+                    <div class="small_title">UI Kit Demo</div>
+                    <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor.</div>
+                    <button class="buy_but default_button">Purchase Now</button>
+                </div>
+                <div class="small_cont">
+                    <div class="title pricing-title">$40</div>
+                    <div class="small_title">Design Kit</div>
+                    <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor.</div>
+                    <button class="buy_but default_button">Purchase Design Kit</button>
+                </div>
+                <div class="small_cont">
+                    <div class="title pricing-title">$75</div>
+                    <div class="small_title">Design & Code Package</div>
+                    <div class="small_parag">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor.</div>
+                    <button class="buy_but default_button">Purchase Package</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_brand">
+                <div class="footer_brand_date">©2020 LPNU</div>
+                <div class="footer_brand_logo">Landie</div>
+            </div>
+            <hr class="footer_hr">
+            <div class="footer_nav">
+                <button class="default_button iot-logo">IoT edition</button>
+                <nav class="footer_links">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer_socials">
+                    <div class="footer_social_links">
+                        <img src="images/social_fb.svg" alt="fb social icon">
+                    </div>
+                    <div class="footer_social_links">
+                        <img src="images/social_linked.svg" alt="linked social icon">
+                    </div>
+                    <div class="footer_social_links">
+                        <img src="images/social_twitter.svg" alt="twitter social icon">
+                    </div>
+                    <div class="footer_social_links">
+                        <img src="images/social_youtube.svg" alt="youtube social icon">
+                    </div>
+                    <div class="footer_social_links">
+                        <img src="images/social_instagram.svg" alt="insta social icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>

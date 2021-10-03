@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.header_menu > img {
+  max-width: 100%;
+}
+
+.header_menu_icon {
+  width: 40px;
+}
+
+.header_title {
+  font-weight: 900;
+  font-size: 1.625rem;
+  color: #37447E;
+  line-height: 2.375rem;
+}
+
+.header_but{
+  margin-right: 3.75rem;
+  margin-top: 1rem;
+}
+
+.header_options {
+  display: flex;
+}
+
+.header_buy_now {
+  background: #FFD166;
+  color: #111B47;
+  margin-left: 30px;
+}
+
+.header_menu {
+  display: none;
+  width: 32px;
+  cursor: pointer;
+}
+
+.header_navitem{
+    margin-right: 3.75rem;
+}
+
+.header_nav ul{
+  display: flex;
+}
+
+@media screen and (max-width: 970px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .header_menu {
+    display: block;
+  }
+
+  .header_nav.open {
+    clip-path: circle(1000px at top);
+  }
+
+  .header_nav {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    background: #e7ecff;
+    clip-path: circle(0 at top right);
+    transition: clip-path 1s ease-in;
+  }
+
+  .header_but {
+    display: none;
+  }
+
+  .header_nav .header_navitem {
+    padding-top: 10vh;
+    margin-right: 0;
+    flex: 1;
+  }
+
+  .header_nav a {
+    font-weight: 500;
+    display: block;
+    font-size: 32px;
+  }
+
+  .header_nav ul {
+    flex-direction: column;
+    height: 100%;
+  }
+}
