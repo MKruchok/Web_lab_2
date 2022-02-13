@@ -19,6 +19,7 @@
   font-size: 1.625rem;
   color: #37447E;
   line-height: 2.375rem;
+  margin-right:  32px;
 }
 
 .header_but{
@@ -67,18 +68,19 @@
 
   .header_nav.open {
     clip-path: circle(1000px at top);
+    background-color: black;
   }
 
   .header_nav {
     position: fixed;
     top: 72px;
     left: 0;
-    right: 0;
+    right: 0px;
     bottom: 0;
     margin-top: 0;
     background: #e7ecff;
-    clip-path: circle(0 at top right);
-    transition: clip-path 1s ease-in;
+    clip-path: circle(0px at top left);
+    transition: all 0.3s ease-in;
   }
 
   .header_but {
@@ -87,8 +89,9 @@
 
   .header_nav .header_navitem {
     padding-top: 10vh;
-    margin-right: 0;
+    right: 1rem;
     flex: 1;
+    margin-right:  32px;
   }
 
   .header_nav a {

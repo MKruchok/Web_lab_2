@@ -28,7 +28,6 @@
 
 .footer_hr {
   background: #cdd1d4;
-  margin: 40px 0 20px;
   height: 1px;
   border: 0;
 }
@@ -41,16 +40,22 @@
 }
 
 .footer_links{
+  display: flex;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
 .footer_links ul{
   display: flex;
   flex-direction: row;
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  padding-inline-start: 0;
 }
 
 .footer_links li{
-  margin-right: 4rem;
+  margin: auto;
 }
 
 .footer_socials {
@@ -60,7 +65,7 @@
 }
 
 .footer_social_links{
-  margin-right: 30px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 970px) {
@@ -76,12 +81,12 @@
   .footer_brand,
   .footer_socials,
   .footer_links ul {
-    flex-direction: column;
+    justify-content: space-around;
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    padding-inline-start: 0;
   }
 
 
-  .footer_social_links,
-  .footer_links li{
-    margin-bottom: 1rem;
-  }
 }
